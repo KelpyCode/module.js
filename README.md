@@ -1,9 +1,17 @@
 # module.js
 A lightweight clientside module system for the browser
 
+## Files
+Not sure which to use? Go for `module.min.js`
+
+`module.js` is the script on which is being done development
+`module.safe.js` is a browser safe version of the original, transpiled using Babel
+`module.min.js` is `module.safe.js`, just minified.
+
 ## How to use it
 First, you have to load `module.js`.
-Simply do that by putting a `script` tag in the head. Best is to put it as far to the top as possible.
+Simply do that by putting a `script` tag in the head (assuming you've put it onto your webserver).
+Best is to put it as far to the top as possible.
 ```html
 <html>
     <head>
